@@ -1,4 +1,7 @@
-This is the github repo for the code of the paper **Privacy Perils in Federated Learning: Theoretically Unmasking Threats from Dishonest Servers** [under review]
+This is the github repo for the code of the paper **Analysis of Privacy Leakage in Federated Large Language Models** [Accepted in AISTAT2024]
+
+## Description
+This repo not only contains the code for our AISTAT submission (LLMs folder) but also includes some extra theoretical results of our attacks (Theory folder) and experiments on other AI models (AMI and API folders).
 
 ## Dependencies
 This codebase has been developed and tested only with python 3.8.10 and pytorch 1.7.0, on a linux 64-bit operation system.
