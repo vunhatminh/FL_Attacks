@@ -8,7 +8,11 @@ This folder contains the code for our submission to AISTAT 2024.
 - `ldpfunctions.py`: implementations of tested LDP mechanisms.
 
 **Usage:**
+
 To reproduce the result of the attention-based adversary, run:
+
 `python layers_attn_ldp.py`
+
 To reproduce the result of the FC-based adversary, run:
+
 `python layers_attn_ldp.py`
