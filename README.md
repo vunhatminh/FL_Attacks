@@ -53,7 +53,7 @@ Note that, the datasets need to be preprocessed as described above.
 
 ## Usage of code in `API/`
 
-To reproduce the result of attention-based adversary on unprotected data (**Fig 4**), run:
+To run experiments of attention-based adversary on unprotected data, run:
 `python api-att-imdb.py --beta [beta] --D [batchsize]`
 
   ***Example***:
@@ -61,14 +61,14 @@ To reproduce the result of attention-based adversary on unprotected data (**Fig 
 
 ***
 
-We include two notebooks to reproduce the results of FC-based adversary in API (**Fig 8**):
+We include two notebooks to reproduce the results of FC-based adversary in API:
 
-- `api-fc-ldp-imdb.ipynb`: This notebook contains the experiments of the FC-based adversary on IMDB dataset protected by LDP mechanism. To change the LDP mechanisms (BitRand and OME), just uncomment the correspondings mechanisms in the `task_tpr` and `task_tnr` functions.
-- `api-fc-ldp-twitter.ipynb`: This notebook contains the experiments of the FC-based adversary on Twitter dataset protected by LDP mechanism. To change the LDP mechanisms (BitRand and OME), just uncomment the correspondings mechanisms in the `task_tpr` and 
+- `api-fc-ldp-imdb.ipynb`: This notebook contains the experiments of the FC-based adversary on IMDB dataset protected by LDP mechanism. To change the LDP mechanisms (BitRand and OME), just uncomment the corresponding mechanisms in the `task_tpr` and `task_tnr` functions.
+- `api-fc-ldp-twitter.ipynb`: This notebook contains the experiments of the FC-based adversary on Twitter dataset protected by LDP mechanism. To change the LDP mechanisms (BitRand and OME), just uncomment the corresponding mechanisms in the `task_tpr` and 
 
 ***
 
-The results for Attention-based adversary (**Fig 8**) can be obtained with the following commands:
+The experiments for Attention-based adversary can be obtained with the following commands:
 
  1. For Twitter dataset:   `python api-att-ldp-twitter.py -e [privacy budget] -p [no.processes] -m [LDP-mech] --beta [beta] --times [no.games] --runs [no.runs] --D [batchsize] -o [result directory]`
  
@@ -98,7 +98,7 @@ The results for Attention-based adversary (**Fig 8**) can be obtained with the f
 |OME | [0.5->7.0] |0.1| [10, 40]
 
 ## Usage of code in `Theory/`
-Simply run the two notebooks to reproduce the results in  (**Fig 3**) and  (**Fig 6**).
+Simply run the two notebooks.
 
 
 
