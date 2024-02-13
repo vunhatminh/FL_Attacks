@@ -35,13 +35,17 @@ For API experiments, the Twitter and IMDB datasets are taken in [huggingface/dat
 
 Our notebooks in the  `API/` folder demonstrate how to load the datasets. 
 
-## Usage
+## Directories
 
-Our code are distributed into three sub-directories:
+Our code are distributed into four sub-directories:
 
+- `LLMs`: Experiments on LLMs reported in our AISTAT2024 submission
 - `Theory`: Experiments on synthetic One-hot, Spherical and Gaussian datasets
 - `AMI`: Experiments of AMI on CIFAR10 and ImageNet datasets
 - `API`: Experiments of API on IMDB and Twitter datasets
+
+## Usage of code in `LLMs/`
+Run the two Python files as indicated in the README in that folder. 
 
 ## Usage of code in `AMI/`
 Simply run the two notebooks to reproduce the results in  (**Fig 7**)
