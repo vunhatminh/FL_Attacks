@@ -22,7 +22,7 @@ $ conda activate <name_env>
 ```
 
 ## Dataset and Preprocessing
-
+For AISTAT 2024 experiments, the models and datasets are provided by [huggingface/datasets](https://huggingface.co/datasets). Follow [Link](https://huggingface.co/docs/transformers/en/installation) to install.
 For AMI experiments on CIFAR10 and ImageNet datasets:
 
 1. Follow the `README.md` file in `data/` to download the dataset
